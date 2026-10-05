@@ -1,62 +1,22 @@
 {
-  "floot_items": [
-    { "item": "minecraft:diamond_sword", "amount": 1, "enchants": { "sharpness": 5, "unbreaking": 3, "mending": 1, "looting": 3, "fire_aspect": 2 } },
-    { "item": "minecraft:diamond_pickaxe", "amount": 1, "enchants": { "efficiency": 5, "unbreaking": 3, "fortune": 3, "mending": 1 } },
-    { "item": "minecraft:diamond_axe", "amount": 1, "enchants": { "efficiency": 5, "unbreaking": 3, "sharpness": 5, "mending": 1 } },
-    { "item": "minecraft:trident", "amount": 1, "enchants": { "loyalty": 3, "channeling": 1, "unbreaking": 3, "mending": 1 } },
-    { "item": "minecraft:elytra", "amount": 1, "enchants": { "unbreaking": 3, "mending": 1 } },
-    { "item": "minecraft:mace", "amount": 1, "enchants": { "density": 5, "breach": 4, "unbreaking": 3, "mending": 1 } },
-    { "item": "minecraft:experience_bottle", "amount": 64 },
-    { "item": "minecraft:experience_bottle", "amount": 64 },
-    { "item": "minecraft:experience_bottle", "amount": 64 },
-    { "item": "minecraft:firework_rocket", "amount": 64 },
-    { "item": "minecraft:firework_rocket", "amount": 64 },
-    { "item": "minecraft:firework_rocket", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:cobblestone", "amount": 64 },
-    { "item": "minecraft:totem_of_undying", "amount": 1 },
-    { "item": "minecraft:totem_of_undying", "amount": 1 }
-  ],
+  "commands": {
+    "/floot": {
+      "type": "floot",
+      "items": [
+        { "item": "minecraft:diamond_sword", "amount": 1, "enchants": { "sharpness": 5, "unbreaking": 3, "mending": 1 } },
+        { "item": "minecraft:totem_of_undying", "amount": 2 }
+      ]
+    },
+    "/menchant": {
+      "type": "menchant"
+    }
+  },
   "all_best_enchants": {
     "sharpness": 5,
-    "smite": 5,
-    "bane_of_arthropods": 5,
     "efficiency": 5,
-    "fortune": 3,
-    "silk_touch": 1,
     "unbreaking": 3,
     "mending": 1,
-    "looting": 3,
-    "fire_aspect": 2,
-    "knockback": 2,
-    "sweeping_edge": 3,
-    "loyalty": 3,
-    "channeling": 1,
-    "riptide": 3,
-    "impaling": 5,
-    "power": 5,
-    "punch": 2,
-    "flame": 1,
-    "infinity": 1,
-    "density": 5,
-    "breach": 4,
-    "wind_burst": 3,
-    "protection": 4,
-    "fire_protection": 4,
-    "feather_falling": 4,
-    "blast_protection": 4,
-    "projectile_protection": 4,
-    "respiration": 3,
-    "aqua_affinity": 1,
-    "thorns": 3,
-    "depth_strider": 3,
-    "frost_walker": 2,
-    "soul_speed": 3,
-    "swift_sneak": 3
+    "fortune": 3,
+    "protection": 4
   }
 }
